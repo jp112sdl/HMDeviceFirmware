@@ -1,6 +1,7 @@
 TARGETDIR=/usr/local/etc/config/firmware
-   TMPDIR=/tmp/fwtmp
-
+TMPDIR=/tmp/fwtmp
+   
+[[ ! -z $1 ]] && PARAM=$1
 if [[ "$PARAM" == "-o" ]]; then echo "Overwriting existing contents!";fi
 if [[ "$PARAM" == "-c" ]]; then echo "Clearing all firmware files"; rm -rf ${TARGETDIR}/*; fi
 
