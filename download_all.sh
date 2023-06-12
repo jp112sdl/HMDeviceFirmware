@@ -15,7 +15,7 @@ i=0
 for row in ${output}; do
   i=$((i+1))
   echo -n -e "Downloading firmware file $i of $cnt (${row}).              \r" | tee -a ${runfile}
-  printf "\n" > ${runfile}
+  printf "\n" >> ${runfile}
   curl -fsSLOJ  "https://ccu3-update.homematic.com/firmware/download?cmd=download&serial=0&product=${row}"
 done
 echo "" | tee -a ${runfile}
