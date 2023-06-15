@@ -1,7 +1,7 @@
 on:
   push:
   schedule:
-    - cron: '0 14 * * *' # run at 7am UTC
+    - cron: '48 12 * * *' # run at 7am UTC
 jobs:
   build:
     runs-on: ubuntu-latest
