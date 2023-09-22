@@ -1,4 +1,4 @@
-External IP: 40.84.170.8
+External IP: 40.75.123.247
 Getting firmware list
 Downloading firmware file 1 of 170 (ELV-SH-WSC).              
 Downloading firmware file 2 of 170 (HM-CC-RT-DN).              
@@ -64,7 +64,7 @@ Downloading firmware file 61 of 170 (HmIP-FSM).
 Downloading firmware file 62 of 170 (HmIP-FSM16).              
 Downloading firmware file 63 of 170 (HmIP-FWI).              
 Downloading firmware file 64 of 170 (HmIP-HAP).              
-Downloading firmware file 65 of 170 (HmIP-HAP-Y7R).              
+Downloading firmware file 65 of 170 (HmIP-HAP-JS1).              
 Downloading firmware file 66 of 170 (HmIP-KRC4).              
 Downloading firmware file 67 of 170 (HmIP-KRCA).              
 Downloading firmware file 68 of 170 (HmIP-MIO16-PCB).              
