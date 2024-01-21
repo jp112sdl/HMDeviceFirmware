@@ -14,6 +14,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: . ./download_all.sh
+      continue-on-error: true
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
