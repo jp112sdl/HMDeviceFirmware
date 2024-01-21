@@ -30,8 +30,9 @@ for f in *gz; do
   if [ -z "$changelog" ]; then
     echo "$f has no changelog.txt" | tee -a ${runfile}
   else
-    tar -zxf $f changelog.txt 
-    mv changelog.txt ./changelogs/${f%%.*}_changelog.txt
+   # tar -zxf $f changelog.txt 
+   # mv changelog.txt ./changelogs/${f%%.*}_changelog.txt
+    echo "$f has  changelog.txt" | tee -a ${runfile}
   fi
   
   case $pref in
