@@ -22,6 +22,7 @@ for row in ${output}; do
 done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
+echo "## Homematic Device Firmware Changelogs" >> ./docs/index.md
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
@@ -30,8 +31,10 @@ for f in *gz; do
     echo "$f has no changelog.txt" | tee -a ${runfile}
   else
     tar -zxf $f changelog.txt 
-    mv changelog.txt ./docs/${f%%.*}_changelog.md
+    mv changelog.txt ./changelogs/${f%%.*}_changelog.md
   fi
+  
+  echo "[${f%%.*}](./docs/${f%%.*}_changelog.md)" > ./docs/index.md
   
   case $pref in
     ([Hh][Mm]) pref="HM";;
