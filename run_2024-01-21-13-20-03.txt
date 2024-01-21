@@ -1,4 +1,4 @@
-External IP: 20.84.127.21
+External IP: 20.84.127.23
 Getting firmware list
 Downloading firmware file 1 of 176 (ELV-SH-WSC).              
 Downloading firmware file 2 of 176 (HM-CC-RT-DN).              
@@ -106,76 +106,3 @@ Downloading firmware file 103 of 176 (HmIP-SLO).
 Downloading firmware file 104 of 176 (HmIP-SMI).              
 Downloading firmware file 105 of 176 (HmIP-SMI55).              
 Downloading firmware file 106 of 176 (HmIP-SMO).              
-Downloading firmware file 107 of 176 (HmIP-SMO-2).              
-Downloading firmware file 108 of 176 (HmIP-SMO-A).              
-Downloading firmware file 109 of 176 (HmIP-SMO-A-2).              
-Downloading firmware file 110 of 176 (HmIP-SPDR).              
-Downloading firmware file 111 of 176 (HmIP-SPI).              
-Downloading firmware file 112 of 176 (HmIP-SRD).              
-Downloading firmware file 113 of 176 (HmIP-SRH).              
-Downloading firmware file 114 of 176 (HmIP-STE2-PCB).              
-Downloading firmware file 115 of 176 (HmIP-STH).              
-Downloading firmware file 116 of 176 (HmIP-STHD).              
-Downloading firmware file 117 of 176 (HmIP-STHO).              
-Downloading firmware file 118 of 176 (HmIP-STHO-A).              
-Downloading firmware file 119 of 176 (HmIP-STI).              
-Downloading firmware file 120 of 176 (HmIP-STV).              
-Downloading firmware file 121 of 176 (HmIP-SWD).              
-Downloading firmware file 122 of 176 (HmIP-SWDM-2).              
-Downloading firmware file 123 of 176 (HmIP-SWDO).              
-Downloading firmware file 124 of 176 (HmIP-SWDO-2).              
-Downloading firmware file 125 of 176 (HmIP-SWDO-I).              
-Downloading firmware file 126 of 176 (HmIP-SWDO-PL).              
-Downloading firmware file 127 of 176 (HmIP-SWDO-PL-2).              
-Downloading firmware file 128 of 176 (HmIP-SWO-B).              
-Downloading firmware file 129 of 176 (HmIP-SWO-PL).              
-Downloading firmware file 130 of 176 (HmIP-SWO-PR).              
-Downloading firmware file 131 of 176 (HmIP-USBSM).              
-Downloading firmware file 132 of 176 (HmIP-WGC).              
-Downloading firmware file 133 of 176 (HmIP-WHS2).              
-Downloading firmware file 134 of 176 (HmIP-WKP).              
-Downloading firmware file 135 of 176 (HmIP-WRC2).              
-Downloading firmware file 136 of 176 (HmIP-WRC6).              
-Downloading firmware file 137 of 176 (HmIP-WRCC2).              
-Downloading firmware file 138 of 176 (HmIP-WRCD).              
-Downloading firmware file 139 of 176 (HmIP-WTH).              
-Downloading firmware file 140 of 176 (HmIP-WTH-1).              
-Downloading firmware file 141 of 176 (HmIP-WTH-2).              
-Downloading firmware file 142 of 176 (HmIP-WTH-B-2).              
-Downloading firmware file 143 of 176 (HmIP-WUA).              
-Downloading firmware file 144 of 176 (HmIP-eTRV).              
-Downloading firmware file 145 of 176 (HmIP-eTRV-2).              
-Downloading firmware file 146 of 176 (HmIP-eTRV-2-UK).              
-Downloading firmware file 147 of 176 (HmIP-eTRV-2_I9F).              
-Downloading firmware file 148 of 176 (HmIP-eTRV-B-2).              
-Downloading firmware file 149 of 176 (HmIP-eTRV-C).              
-Downloading firmware file 150 of 176 (HmIP-eTRV-C-2).              
-Downloading firmware file 151 of 176 (HmIP-eTRV-CL).              
-Downloading firmware file 152 of 176 (HmIP-eTRV-E).              
-Downloading firmware file 153 of 176 (HmIP-eTRV-E-A).              
-Downloading firmware file 154 of 176 (HmIP-eTRV-E-S).              
-Downloading firmware file 155 of 176 (HmIPW-BRC2).              
-Downloading firmware file 156 of 176 (HmIPW-DRAP).              
-Downloading firmware file 157 of 176 (HmIPW-DRBL4).              
-Downloading firmware file 158 of 176 (HmIPW-DRD3).              
-Downloading firmware file 159 of 176 (HmIPW-DRI16).              
-Downloading firmware file 160 of 176 (HmIPW-DRI32).              
-Downloading firmware file 161 of 176 (HmIPW-DRS4).              
-Downloading firmware file 162 of 176 (HmIPW-DRS8).              
-Downloading firmware file 163 of 176 (HmIPW-FAL230-C10).              
-Downloading firmware file 164 of 176 (HmIPW-FAL230-C6).              
-Downloading firmware file 165 of 176 (HmIPW-FAL24-C10).              
-Downloading firmware file 166 of 176 (HmIPW-FAL24-C6).              
-Downloading firmware file 167 of 176 (HmIPW-FALMOT-C12).              
-Downloading firmware file 168 of 176 (HmIPW-FIO6).              
-Downloading firmware file 169 of 176 (HmIPW-SCTHD).              
-Downloading firmware file 170 of 176 (HmIPW-SMI55).              
-Downloading firmware file 171 of 176 (HmIPW-SPI).              
-Downloading firmware file 172 of 176 (HmIPW-STH).              
-Downloading firmware file 173 of 176 (HmIPW-STHD).              
-Downloading firmware file 174 of 176 (HmIPW-WRC2).              
-Downloading firmware file 175 of 176 (HmIPW-WRC6).              
-Downloading firmware file 176 of 176 (HmIPW-WTH).              
-
-Moving files into directories
-Done.
