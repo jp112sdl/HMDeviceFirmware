@@ -21,6 +21,7 @@ done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
 for f in *gz; do
+  echo "$f" | tee -a ${runfile}
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
   changelog=`tar -ztf $f|grep changelog.txt`
