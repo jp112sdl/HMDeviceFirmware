@@ -23,16 +23,14 @@ done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
 for f in *gz; do
-  echo "$f" | tee -a ${runfile}
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
-  changelog=`tar -ztf $f|grep changelog.txt`
+  changelog=`tar -ztf $f|grep changelog.txt||true`
   if [ -z "$changelog" ]; then
     echo "$f has no changelog.txt" | tee -a ${runfile}
   else
-   # tar -zxf $f changelog.txt 
-   # mv changelog.txt ./changelogs/${f%%.*}_changelog.txt
-    echo "$f has  changelog.txt" | tee -a ${runfile}
+    tar -zxf $f changelog.txt 
+    mv changelog.txt ./changelogs/${f%%.*}_changelog.txt
   fi
   
   case $pref in
