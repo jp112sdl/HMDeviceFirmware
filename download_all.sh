@@ -22,8 +22,15 @@ echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
-  tar -zxf $f changelog.txt 
-  [ -f "changelog.txt" ] && mv changelog.txt ./changelogs/${f%%.*}_changelog.txt
+  
+  changelog=`tar -ztf $f|grep changelog.txt`
+  if [ -z "$changelog" ]; then
+    echo "$f has no changelog.txt" | tee -a ${runfile}
+  else
+    tar -zxf $f changelog.txt 
+    mv changelog.txt ./changelogs/${f%%.*}_changelog.txt
+  fi
+  
   case $pref in
     ([Hh][Mm]) pref="HM";;
     ([Hh][Mm][Ii][Pp]) pref="HmIP";;
