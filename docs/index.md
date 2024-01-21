@@ -1,5 +1,5 @@
 ## Homematic Device Firmware Changelogs
-- [ELV-SH-WSC_update_V1_0_8_211001](./changelogs/ELV-SH-WSC_update_V1_0_8_211001_changelog.md)
+- [ELV-SH-WSC_update_V1_0_8_211001](../changelogs/ELV-SH-WSC_update_V1_0_8_211001_changelog.md)
 
 - [HM-ES-PMSw1-Pl-DN-R1_update_V2_6_0000_150812](./changelogs/HM-ES-PMSw1-Pl-DN-R1_update_V2_6_0000_150812_changelog.md)
 
