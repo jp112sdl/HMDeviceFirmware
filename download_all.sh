@@ -1,6 +1,8 @@
 #!/bin/bash
 
 rm -f run_*
+rm -f *.tar.gz
+rm -f *.tgz
 current_date=`date +%Y-%m-%d-%H-%M-%S`
 runfile="run_${current_date}.txt"
 touch ${runfile}
