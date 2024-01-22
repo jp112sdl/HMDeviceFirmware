@@ -35,7 +35,7 @@ for f in *gz; do
     rm changelog.txt
   fi
   
-  echo "- [${f%%.*}](changelogs/_changelog_${f%%.*}.md)" >> ./docs/index.md
+  echo "- [${f%%.*}](changelogs/changelog_${f%%.*}.md)" >> ./docs/index.md
   echo "" >> ./docs/index.md
   
   case $pref in
