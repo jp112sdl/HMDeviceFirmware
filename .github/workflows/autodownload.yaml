@@ -1,7 +1,9 @@
 on:
   #push:
   schedule:
-    - cron: '48 12 * * *' # run at 7am UTC
+    - cron: '30 18 * * *' # run at 7am UTC
+    - cron: '30 14 * * *' # run at 7am UTC
+    - cron: '30 10 * * *' # run at 7am UTC
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
