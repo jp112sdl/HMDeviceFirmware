@@ -30,8 +30,9 @@ for f in *gz; do
   if [ -z "$changelog" ]; then
     echo "$f has no changelog.txt" | tee -a ${runfile}
   else
-    tar -zxf $f changelog.txt 
-    mv changelog.txt ./docs/changelogs/_changelog_${f%%.*}.md
+    tar -zxf $f changelog.txt
+    iconv -f ISO-8859-1 -t UTF-8 changelog.txt > ./docs/changelogs/changelog_${f%%.*}.md
+    rm changelog.txt
   fi
   
   echo "- [${f%%.*}](changelogs/_changelog_${f%%.*}.md)" >> ./docs/index.md
