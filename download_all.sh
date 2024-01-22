@@ -22,10 +22,23 @@ for row in ${output}; do
 done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
-echo "## Homematic Device Firmware Changelogs" > ./docs/index.md
+echo "## Homematic Device Firmware Changelogs" > ./docs/index.md.tmp
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
+  #parse info file
+  infofile=`tar -ztf $f|grep info||true`
+  if [ -z "$infofile" ]; then
+    echo "$f has no info file" | tee -a ${runfile}
+  else
+    tar -zxf $f info
+    fwversion=`grep "FirmwareVersion=" info|cut -d "=" -f 2`
+    fwversion=${fwversion//[$'\n\r']/}
+    fwdevicename=`grep "Name=" info|cut -d "=" -f 2`
+    fwdevicename=${fwdevicename//[$'\n\r']/}
+  fi
+  
+  #parse changelog
   changelog=`tar -ztf $f|grep changelog.txt||true`
   if [ -z "$changelog" ]; then
     echo "$f has no changelog.txt" | tee -a ${runfile}
@@ -35,9 +48,8 @@ for f in *gz; do
     rm changelog.txt
   fi
   
-  echo "- [${f%%.*}](changelogs/changelog_${f%%.*}.md)" >> ./docs/index.md
-  echo "" >> ./docs/index.md
-  
+  echo "- [${fwdevicename} V${fwversion}](changelogs/changelog_${f%%.*}.md)" >> ./docs/index.md.tmp
+
   case $pref in
     ([Hh][Mm]) pref="HM";;
     ([Hh][Mm][Ii][Pp]) pref="HmIP";;
@@ -47,4 +59,7 @@ for f in *gz; do
   [ ! -d $pref ] && mkdir $pref
   mv $f $pref/
 done
+[ -f "info" ] && rm info
+cat ./docs/index.md.tmp | sort > ./docs/index.md
+rm ./docs/index.md.tmp
 echo "Done." | tee -a ${runfile}
