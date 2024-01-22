@@ -31,10 +31,10 @@ for f in *gz; do
     echo "$f has no changelog.txt" | tee -a ${runfile}
   else
     tar -zxf $f changelog.txt 
-    mv changelog.txt ./docs/changelogs/${f%%.*}_changelog.md
+    mv changelog.txt ./docs/changelogs/_changelog_${f%%.*}.md
   fi
   
-  echo "- [${f%%.*}](changelogs/${f%%.*}_changelog.md)" >> ./docs/index.md
+  echo "- [${f%%.*}](changelogs/_changelog:${f%%.*}.md)" >> ./docs/index.md
   echo "" >> ./docs/index.md
   
   case $pref in
