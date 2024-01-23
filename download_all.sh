@@ -22,9 +22,7 @@ for row in ${output}; do
 done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
-echo "## Homematic Device Firmware Changelogs" > ./docs/index.md.tmp
-echo "| Device Model | Version |" >> ./docs/index.md.tmp
-echo "| ------------- |:-------------:|" >> ./docs/index.md.tmp
+cp ./docs/_index.template ./docs/index.md.tmp
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
