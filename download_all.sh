@@ -63,7 +63,7 @@ done
 echo "## Homematic Device Firmware Changelogs" >  ./docs/index.md
 
 declare -a pref_arr=("HmIP" "HmIPW" "ELV" "HM")
-for i in "${arr[@]}"
+for i in "${pref_arr[@]}"
 do
   echo "<details open><summary>$i</summary>"     >> ./docs/index.md
   echo ""                                        >> ./docs/index.md
