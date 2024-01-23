@@ -36,6 +36,13 @@ for f in *gz; do
     fwdevicename=`grep "Name=" info|cut -d "=" -f 2`
     fwdevicename=${fwdevicename//[$'\n\r']/}
   fi
+
+  case $pref in
+    ([Hh][Mm]) pref="HM";;
+    ([Hh][Mm][Ii][Pp]) pref="HmIP";;
+    ([Hh][Mm][Ii][Pp][Ww]) pref="HmIPW";;
+    ([Ee][Ll][Vv]) pref="ELV";;
+  esac
   
   #parse changelog
   changelog=`tar -ztf $f|grep changelog.txt||true`
@@ -45,21 +52,28 @@ for f in *gz; do
     tar -zxf $f changelog.txt
     iconv -f ISO-8859-1 -t UTF-8 changelog.txt > ./docs/changelogs/changelog_${f%%.*}.md
     rm changelog.txt
-    echo "| ${fwdevicename} | [V${fwversion}](changelogs/changelog_${f%%.*}.md) |" >> ./docs/index.md.tmp
+    echo "| ${fwdevicename} | [V${fwversion}](changelogs/changelog_${f%%.*}.md) |" >> ./docs/_index.md.tmp.$pref
   fi
-
-  case $pref in
-    ([Hh][Mm]) pref="HM";;
-    ([Hh][Mm][Ii][Pp]) pref="HmIP";;
-    ([Hh][Mm][Ii][Pp][Ww]) pref="HmIPW";;
-    ([Ee][Ll][Vv]) pref="ELV";;
-  esac
+  
   [ ! -d $pref ] && mkdir $pref
   mv $f $pref/
 done
 [ -f "info" ] && rm info
-cat ./docs/index.md.tmp | sort > ./docs/index.md.tmp.sorted
-cat ./docs/_index.template ./docs/index.md.tmp.sorted > ./docs/index.md
-rm ./docs/index.md.tmp
-rm ./docs/index.md.tmp.sorted
+
+echo "## Homematic Device Firmware Changelogs" >  ./docs/index.md
+
+declare -a pref_arr=("HmIP" "HmIPW" "ELV" "HM")
+for i in "${arr[@]}"
+do
+  echo "<details open><summary>$i</summary>"     >> ./docs/index.md
+  echo ""                                        >> ./docs/index.md
+  echo "| Device Model | Version |"              >> ./docs/index.md
+  echo "| ------------- |:-------------:|"       >> ./docs/index.md
+  cat ./docs/_index.md.tmp.$i | sort             >> ./docs/index.md
+  echo "</details>"                              >> ./docs/index.md
+done
+
+
+
+rm ./docs/_index.md.*
 echo "Done." | tee -a ${runfile}
