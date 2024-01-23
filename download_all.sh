@@ -22,7 +22,6 @@ for row in ${output}; do
 done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
-cp ./docs/_index.template ./docs/index.md.tmp
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
@@ -59,6 +58,8 @@ for f in *gz; do
   mv $f $pref/
 done
 [ -f "info" ] && rm info
-cat ./docs/index.md.tmp | sort > ./docs/index.md
+cat ./docs/index.md.tmp | sort > ./docs/index.md.sorted
+cat ./docs/_index.template ./docs/index.md.tmp.sorted > ./docs/index.md
 rm ./docs/index.md.tmp
+rm ./docs/index.md.tmp.sorted
 echo "Done." | tee -a ${runfile}
