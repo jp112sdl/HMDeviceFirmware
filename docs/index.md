@@ -111,7 +111,6 @@
 | HmIP-WHS2 | [V2.0.10](changelogs/changelog_HmIP-WHS2_update_V2_0_10_220525.md) |
 | HmIP-WKP | [V1.0.12](changelogs/changelog_HmIP-WKP_update_V1_0_12_230327.md) |
 | HmIP-WRC2 | [V1.18.0](changelogs/changelog_HmIP-WRC2_update_V1_18_0_220214.md) |
-| HmIP-WRC6 | [V2.2.14](changelogs/changelog_HMIP-WRC6_update_V2_2_14_220324.md) |
 | HmIP-WRCC2 | [V2.2.14](changelogs/changelog_HmIP-WRCC2_update_V2_2_14_220406.md) |
 | HmIP-WRCD | [V1.4.8](changelogs/changelog_HmIP-WRCD_update_V1_4_8_230419.md) |
 | HmIP-WTH | [V2.8.10](changelogs/changelog_HmIP_WTH_update_2_8_10_221026.md) |
@@ -167,8 +166,6 @@
 
 | Device Model | Version |
 | ------------- |:-------------:|
-| HM-CC-RT-DN | [V1.5.3](changelogs/changelog_hm_cc_rt_dn_update_V1_5_003_171004.md) |
-| HM-Dis-EP-WM55 | [V1.2.0](changelogs/changelog_hm_dis_ep_wm55_update_V1_2_170129.md) |
 | HM-ES-PMSw1-Pl | [V2.6.0](changelogs/changelog_HM-ES-PMSw1-Pl_update_V2_6_0000_150812.md) |
 | HM-ES-PMSw1-Pl-DN-R1 | [V2.6.0](changelogs/changelog_HM-ES-PMSw1-Pl-DN-R1_update_V2_6_0000_150812.md) |
 | HM-ES-PMSw1-Pl-DN-R2 | [V2.6.0](changelogs/changelog_HM-ES-PMSw1-Pl-DN-R2_update_V2_6_0000_150812.md) |
@@ -187,9 +184,5 @@
 | HM-LC-Sw1-Pl-DN-R4 | [V2.6.0](changelogs/changelog_HM-LC-Sw1-Pl-DN-R4_update_V2_6_0000_150812.md) |
 | HM-LC-Sw1-Pl-DN-R5 | [V2.6.0](changelogs/changelog_HM-LC-Sw1-Pl-DN-R5_update_V2_6_0000_150812.md) |
 | HM-LC-Sw1PBU-FM | [V2.8.2](changelogs/changelog_HM-LC-Sw1PBU-FM_update_V2_8_2_150713.md) |
-| HM-MOD-Re-8 | [V1.4.1](changelogs/changelog_hm-mod-re-8_update_V1_4_161111.md) |
-| HM-OU-CFM-Pl | [V2.4.2](changelogs/changelog_hm-ou-cfm-pl_update_V2_4_150930.md) |
-| HM-OU-CFM-TW | [V1.3.0](changelogs/changelog_hm-ou-cfm-tw_update_V1_3_160620.md) |
 | HM-Sen-MDIR-WM55 | [V1.2.0](changelogs/changelog_HM-Sen-MDIR-WM55_update_V1_2_0_160825.md) |
-| HM-TC-IT-WM-W-EU | [V1.4.2](changelogs/changelog_hm_tc_it_wm_w_eu_update_V1_4_002_171018.md) |
 </details>
