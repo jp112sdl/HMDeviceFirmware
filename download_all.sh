@@ -46,9 +46,8 @@ for f in *gz; do
     tar -zxf $f changelog.txt
     iconv -f ISO-8859-1 -t UTF-8 changelog.txt > ./docs/changelogs/changelog_${f%%.*}.md
     rm changelog.txt
+    echo "- [${fwdevicename} V${fwversion}](changelogs/changelog_${f%%.*}.md)" >> ./docs/index.md.tmp
   fi
-  
-  echo "- [${fwdevicename} V${fwversion}](changelogs/changelog_${f%%.*}.md)" >> ./docs/index.md.tmp
 
   case $pref in
     ([Hh][Mm]) pref="HM";;
