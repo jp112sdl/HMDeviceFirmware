@@ -58,7 +58,7 @@ for f in *gz; do
   mv $f $pref/
 done
 [ -f "info" ] && rm info
-cat ./docs/index.md.tmp | sort > ./docs/index.md.sorted
+cat ./docs/index.md.tmp | sort > ./docs/index.md.tmp.sorted
 cat ./docs/_index.template ./docs/index.md.tmp.sorted > ./docs/index.md
 rm ./docs/index.md.tmp
 rm ./docs/index.md.tmp.sorted
