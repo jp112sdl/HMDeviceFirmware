@@ -23,6 +23,8 @@ done
 echo "" | tee -a ${runfile}
 echo "Moving files into directories" | tee -a ${runfile}
 echo "## Homematic Device Firmware Changelogs" > ./docs/index.md.tmp
+echo "| Device Model | Version |" >> ./docs/index.md.tmp
+echo "| ------------- |:-------------:|" >> ./docs/index.md.tmp
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
@@ -46,7 +48,7 @@ for f in *gz; do
     tar -zxf $f changelog.txt
     iconv -f ISO-8859-1 -t UTF-8 changelog.txt > ./docs/changelogs/changelog_${f%%.*}.md
     rm changelog.txt
-    echo "- [${fwdevicename} V${fwversion}](changelogs/changelog_${f%%.*}.md)" >> ./docs/index.md.tmp
+    echo "| ${fwdevicename} | [V${fwversion}](changelogs/changelog_${f%%.*}.md) |" >> ./docs/index.md.tmp
   fi
 
   case $pref in
