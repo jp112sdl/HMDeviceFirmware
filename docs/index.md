@@ -1,7 +1,15 @@
 ## Homematic Device Firmware Changelogs
+<details open><summary>ELV</summary>
+
 | Device Model | Version |
 | ------------- |:-------------:|
 | ELV-SH-WSC | [V1.0.8](changelogs/changelog_ELV-SH-WSC_update_V1_0_8_211001.md) |
+</details>
+
+<details open><summary>HM</summary>
+
+| Device Model | Version |
+| ------------- |:-------------:|
 | HM-CC-RT-DN | [V1.5.3](changelogs/changelog_hm_cc_rt_dn_update_V1_5_003_171004.md) |
 | HM-Dis-EP-WM55 | [V1.2.0](changelogs/changelog_hm_dis_ep_wm55_update_V1_2_170129.md) |
 | HM-ES-PMSw1-Pl | [V2.6.0](changelogs/changelog_HM-ES-PMSw1-Pl_update_V2_6_0000_150812.md) |
@@ -27,6 +35,11 @@
 | HM-OU-CFM-TW | [V1.3.0](changelogs/changelog_hm-ou-cfm-tw_update_V1_3_160620.md) |
 | HM-Sen-MDIR-WM55 | [V1.2.0](changelogs/changelog_HM-Sen-MDIR-WM55_update_V1_2_0_160825.md) |
 | HM-TC-IT-WM-W-EU | [V1.4.2](changelogs/changelog_hm_tc_it_wm_w_eu_update_V1_4_002_171018.md) |
+</details>
+<details open><summary>HmIP</summary>
+
+| Device Model | Version |
+| ------------- |:-------------:|
 | HmIP-ASIR | [V1.4.2](changelogs/changelog_HmIP-ASIR_update_V1_4_2_180724.md) |
 | HmIP-ASIR-2 | [V1.4.4](changelogs/changelog_HmIP-ASIR-2_update_V1_4_4_220406.md) |
 | HmIP-ASIR-O | [V1.0.8](changelogs/changelog_HmIP-ASIR-O_update_V1_0_8_221018.md) |
@@ -153,6 +166,11 @@
 | HmIP-eTRV-E | [V1.4.6](changelogs/changelog_HmIP-eTRV-E_update_V1_4_6_231019.md) |
 | HmIP-eTRV-E-A | [V1.4.6](changelogs/changelog_HmIP-eTRV-E-A_update_V1_4_6_231019.md) |
 | HmIP-eTRV-E-S | [V1.4.6](changelogs/changelog_HmIP-eTRV-E-S_update_V1_4_6_231019.md) |
+</details>
+<details open><summary>HmIPW</summary>
+
+| Device Model | Version |
+| ------------- |:-------------:|
 | HmIPW-BRC2 | [V2.2.14](changelogs/changelog_HmIPW-BRC2_update_V2_2_14_221020.md) |
 | HmIPW-DRAP | [V2.4.28](changelogs/changelog_HmIPW-DRAP_2_4_28_220920.md) |
 | HmIPW-DRBL4 | [V1.8.4](changelogs/changelog_HmIPW-DRBL4_update_V1_8_4_221019.md) |
@@ -175,3 +193,4 @@
 | HmIPW-WRC2 | [V2.2.14](changelogs/changelog_HmIPW-WRC2_update_V2_2_14_221020.md) |
 | HmIPW-WRC6 | [V1.2.2](changelogs/changelog_HmIPW-WRC6_update_V1_2_2_221019.md) |
 | HmIPW-WTH | [V2.8.10](changelogs/changelog_HmIPW_WTH_update_2_8_10_221019.md) |
+</details>
