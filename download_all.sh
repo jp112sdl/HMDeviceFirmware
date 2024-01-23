@@ -1,5 +1,10 @@
 #!/bin/bash
 
+pref_HM="HM"
+pref_HmIP="HmIP"
+pref_HmIPW="HmIPW"
+pref_ELV="ELV"
+
 rm -f run_*
 rm -f *.tar.gz
 rm -f *.tgz
@@ -37,13 +42,6 @@ for f in *gz; do
     fwdevicename=${fwdevicename//[$'\n\r']/}
   fi
 
-  case $pref in
-    ([Hh][Mm]) pref="HM";;
-    ([Hh][Mm][Ii][Pp]) pref="HmIP";;
-    ([Hh][Mm][Ii][Pp][Ww]) pref="HmIPW";;
-    ([Ee][Ll][Vv]) pref="ELV";;
-  esac
-  
   #parse changelog
   changelog=`tar -ztf $f|grep changelog.txt||true`
   if [ -z "$changelog" ]; then
@@ -55,14 +53,22 @@ for f in *gz; do
     echo "| ${fwdevicename} | [V${fwversion}](changelogs/changelog_${f%%.*}.md) |" >> ./docs/_index.md.tmp.$pref
   fi
   
+  case $pref in
+    ([Hh][Mm]) pref=$pref_HM;;
+    ([Hh][Mm][Ii][Pp]) pref=$pref_HmIP;;
+    ([Hh][Mm][Ii][Pp][Ww]) pref=$pref_HmIPW;;
+    ([Ee][Ll][Vv]) pref=$pref_ELV;;
+  esac
   [ ! -d $pref ] && mkdir $pref
   mv $f $pref/
+  
 done
 [ -f "info" ] && rm info
 
+#Build final index.md file
 echo "## Homematic Device Firmware Changelogs" >  ./docs/index.md
 
-declare -a pref_arr=("HmIP" "HmIPW" "ELV" "HM")
+declare -a pref_arr=($pref_HmIP $pref_HmIPW $pref_ELV $pref_HM)
 for i in "${pref_arr[@]}"
 do
   echo "<details open><summary>$i</summary>"     >> ./docs/index.md
@@ -72,8 +78,6 @@ do
   cat ./docs/_index.md.tmp.$i | sort             >> ./docs/index.md
   echo "</details>"                              >> ./docs/index.md
 done
-
-
 
 rm ./docs/_index.md.*
 echo "Done." | tee -a ${runfile}
