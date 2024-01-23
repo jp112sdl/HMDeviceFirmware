@@ -54,10 +54,10 @@ for f in *gz; do
   fi
   
   case $pref in
-    ([Hh][Mm]) pref=$pref_HM;;
-    ([Hh][Mm][Ii][Pp]) pref=$pref_HmIP;;
+    ([Hh][Mm])             pref=$pref_HM;;
+    ([Hh][Mm][Ii][Pp])     pref=$pref_HmIP;;
     ([Hh][Mm][Ii][Pp][Ww]) pref=$pref_HmIPW;;
-    ([Ee][Ll][Vv]) pref=$pref_ELV;;
+    ([Ee][Ll][Vv])         pref=$pref_ELV;;
   esac
   [ ! -d $pref ] && mkdir $pref
   mv $f $pref/
