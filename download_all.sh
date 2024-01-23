@@ -66,10 +66,10 @@ done
 [ -f "info" ] && rm info
 
 #Build final index.md file
-generation_time=`date +'%d.%m.%Y %H:%M:%S'`
+generation_time=`date +'%d.%m.%Y, %H:%M:%S Uhr'`
 echo "## Homematic Device Firmware Changelogs"    > ./docs/index.md
 echo ""                                          >> ./docs/index.md
-echo "_last generated: ${generation_time}_"     >> ./docs/index.md
+echo "_last generated: ${generation_time}_"      >> ./docs/index.md
 echo ""                                          >> ./docs/index.md
 declare -a pref_arr=($pref_HmIP $pref_HmIPW $pref_ELV $pref_HM)
 for i in "${pref_arr[@]}"
