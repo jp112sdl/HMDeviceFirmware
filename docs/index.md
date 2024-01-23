@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
-| ------------- |:-------------:|
 | Device Model | Version |
+| ------------- |:-------------:|
 | ELV-SH-WSC | [V1.0.8](changelogs/changelog_ELV-SH-WSC_update_V1_0_8_211001.md) |
 | HM-CC-RT-DN | [V1.5.3](changelogs/changelog_hm_cc_rt_dn_update_V1_5_003_171004.md) |
 | HM-Dis-EP-WM55 | [V1.2.0](changelogs/changelog_hm_dis_ep_wm55_update_V1_2_170129.md) |
