@@ -1,10 +1,9 @@
 on:
   #push:
   schedule:
-    - cron: '30 18 * * *' # run at 7am UTC
-    - cron: '30 14 * * *' # run at 7am UTC
-    - cron: '30 10 * * *' # run at 7am UTC
-  # Allows you to run this workflow manually from the Actions tab
+    - cron: '30 18 * * *' # run at 6pm UTC
+    - cron: '30 14 * * *' # run at 2pm UTC
+    - cron: '30 10 * * *' # run at 10am UTC
   workflow_dispatch:
 jobs:
   build:
@@ -12,8 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
       with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+        persist-credentials: false
+        fetch-depth: 0
     - name: Setup timezone
       uses: zcong1993/setup-timezone@master
       with:
