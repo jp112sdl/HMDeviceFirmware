@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 11.02.2024, 19:37:52 Uhr_
+_last generated: 12.02.2024, 11:38:39 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -46,8 +46,6 @@ _last generated: 11.02.2024, 19:37:52 Uhr_
 | HmIP-FSM | [V1.24.6](changelogs/changelog_HmIP-FSM_update_V1_24_6_230323.md) |
 | HmIP-FSM16 | [V1.24.6](changelogs/changelog_HmIP-FSM16_update_V1_24_6_230323.md) |
 | HmIP-FWI | [V1.0.14](changelogs/changelog_HmIP-FWI_update_V1_0_14_220428.md) |
-| HmIP-HAP | [V3.0.16](changelogs/changelog_HmIP-HAP_3_0_16_230614.md) |
-| HmIP-HAP-JS1 | [V3.0.16](changelogs/changelog_HmIP-HAP-JS1_3_0_16_230614.md) |
 | HmIP-KRC4 | [V1.10.0](changelogs/changelog_HmIP-KRC4_update_V1_10_0_180302.md) |
 | HmIP-KRCA | [V1.10.0](changelogs/changelog_HmIP-KRCA_update_V1_10_0_180302.md) |
 | HmIP-MIO16-PCB | [V1.0.10](changelogs/changelog_HmIP-MIO16-PCB_update_V1_0_10_191022.md) |
@@ -137,7 +135,7 @@ _last generated: 11.02.2024, 19:37:52 Uhr_
 | Device Model | Version |
 | ------------- |:-------------:|
 | HmIPW-BRC2 | [V2.2.14](changelogs/changelog_HmIPW-BRC2_update_V2_2_14_221020.md) |
-| HmIPW-DRAP | [V2.4.28](changelogs/changelog_HmIPW-DRAP_2_4_28_220920.md) |
+| HmIPW-DRAP | [V3.0.20](changelogs/changelog_HmIPW-DRAP_3_0_20_231208.md) |
 | HmIPW-DRBL4 | [V1.8.4](changelogs/changelog_HmIPW-DRBL4_update_V1_8_4_221019.md) |
 | HmIPW-DRD3 | [V2.0.6](changelogs/changelog_HmIPW-DRD3_update_V2_0_6_230412.md) |
 | HmIPW-DRI16 | [V1.2.2](changelogs/changelog_HmIPW-DRI16_update_V1_2_2_190603.md) |
