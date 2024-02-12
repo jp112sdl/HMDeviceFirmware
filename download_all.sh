@@ -30,6 +30,13 @@ echo "Moving files into directories" | tee -a ${runfile}
 for f in *gz; do
   pref=`ls $f|awk -F'[-_]' {'print $1'}`
   
+  case $pref in
+    ([Hh][Mm])             pref=$pref_HM;;
+    ([Hh][Mm][Ii][Pp])     pref=$pref_HmIP;;
+    ([Hh][Mm][Ii][Pp][Ww]) pref=$pref_HmIPW;;
+    ([Ee][Ll][Vv])         pref=$pref_ELV;;
+  esac
+  
   #parse info file
   infofile=`tar -ztf $f|grep info||true`
   if [ -z "$infofile" ]; then
@@ -53,12 +60,6 @@ for f in *gz; do
     echo "| ${fwdevicename} | [V${fwversion}](changelogs/changelog_${f%%.*}.md) |" >> ./docs/_index.md.tmp.$pref
   fi
   
-  case $pref in
-    ([Hh][Mm])             pref=$pref_HM;;
-    ([Hh][Mm][Ii][Pp])     pref=$pref_HmIP;;
-    ([Hh][Mm][Ii][Pp][Ww]) pref=$pref_HmIPW;;
-    ([Ee][Ll][Vv])         pref=$pref_ELV;;
-  esac
   [ ! -d $pref ] && mkdir $pref
   mv $f $pref/
   
