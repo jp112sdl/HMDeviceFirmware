@@ -1,4 +1,4 @@
-External IP: 52.234.26.89
+External IP: 52.238.25.4
 Getting firmware list
 Downloading firmware file 1 of 176 (ELV-SH-WSC).              
 Downloading firmware file 2 of 176 (HM-CC-RT-DN).              
