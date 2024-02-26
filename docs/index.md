@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 26.02.2024, 15:41:41 Uhr_
+_last generated: 26.02.2024, 19:38:19 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -36,9 +36,9 @@ _last generated: 26.02.2024, 15:41:41 Uhr_
 | HmIP-ESI | [V1.2.2](changelogs/changelog_HmIP-ESI_update_V1_2_2_231214.md) |
 | HmIP-FAL230-C10 | [V2.4.6](changelogs/changelog_HmIP_FAL230_C10_update_2_4_6_230804.md) |
 | HmIP-FAL230-C6 | [V2.4.6](changelogs/changelog_HmIP_FAL230_C6_update_2_4_6_230804.md) |
-| HmIP-FAL24-C10 | [V2.2.006](changelogs/changelog_HmIP_FAL24_C10_update_2_2_6_220530.md) |
-| HmIP-FAL24-C6 | [V2.2.006](changelogs/changelog_HmIP_FAL24_C6_update_2_2_6_220530.md) |
-| HmIP-FALMOT-C12 | [V1.4.8](changelogs/changelog_HmIP_FALMOT_C12_update_V1_4_8_220927.md) |
+| HmIP-FAL24-C10 | [V2.4.6](changelogs/changelog_HmIP_FAL24_C10_update_2_4_6_230804.md) |
+| HmIP-FAL24-C6 | [V2.4.6](changelogs/changelog_HmIP_FAL24_C6_update_2_4_6_230804.md) |
+| HmIP-FALMOT-C12 | [V1.4.10](changelogs/changelog_HmIP_FALMOT_C12_update_V1_4_10_230929.md) |
 | HmIP-FBL | [V1.10.16](changelogs/changelog_HmIP-FBL_update_V1_10_16_231115.md) |
 | HmIP-FCI1 | [V1.0.14](changelogs/changelog_HmIP-FCI1_update_V1_0_14_181114.md) |
 | HmIP-FCI6 | [V1.0.18](changelogs/changelog_HmIP-FCI6_update_V1_0_18_221010.md) |
@@ -145,11 +145,11 @@ _last generated: 26.02.2024, 15:41:41 Uhr_
 | HmIPW-DRI32 | [V1.2.2](changelogs/changelog_HmIPW-DRI32_update_V1_2_2_190603.md) |
 | HmIPW-DRS4 | [V1.2.6](changelogs/changelog_HmIPW-DRS4_update_V1_2_6_220928.md) |
 | HmIPW-DRS8 | [V1.2.6](changelogs/changelog_HmIPW-DRS8_update_V1_2_6_220928.md) |
-| HmIPW-FAL230-C10 | [V2.0.002](changelogs/changelog_HmIPW_FAL230_C10_update_2_0_2_190219.md) |
-| HmIPW-FAL230-C6 | [V2.0.002](changelogs/changelog_HmIPW_FAL230_C6_update_2_0_2_190417.md) |
-| HmIPW-FAL24-C10 | [V2.0.002](changelogs/changelog_HmIPW_FAL24_C10_update_2_0_2_190219.md) |
-| HmIPW-FAL24-C6 | [V2.0.002](changelogs/changelog_HmIPW_FAL24_C6_update_2_0_2_190417.md) |
-| HmIPW-FALMOT-C12 | [V1.4.8](changelogs/changelog_HmIPW-FALMOT-C12_update_V1_4_8_221004.md) |
+| HmIPW-FAL230-C10 | [V2.4.6](changelogs/changelog_HmIPW_FAL230_C10_update_2_4_6_230815.md) |
+| HmIPW-FAL230-C6 | [V2.4.6](changelogs/changelog_HmIPW_FAL230_C6_update_2_4_6_230815.md) |
+| HmIPW-FAL24-C10 | [V2.4.6](changelogs/changelog_HmIPW_FAL24_C10_update_2_4_6_230815.md) |
+| HmIPW-FAL24-C6 | [V2.4.6](changelogs/changelog_HmIPW_FAL24_C6_update_2_4_6_230815.md) |
+| HmIPW-FALMOT-C12 | [V1.4.10](changelogs/changelog_HmIPW-FALMOT-C12_update_V1_4_10_231010.md) |
 | HmIPW-FIO6 | [V1.2.10](changelogs/changelog_HmIPW-FIO6_update_V1_2_10_230822.md) |
 | HmIPW-SCTHD | [V1.0.10](changelogs/changelog_HmIPW-SCTHD_update_V1_0_10_230411.md) |
 | HmIPW-SMI55 | [V1.0.20](changelogs/changelog_HmIPW-SMI55_update_V1_0_20_190613.md) |
