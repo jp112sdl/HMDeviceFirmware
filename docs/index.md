@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 25.03.2024, 19:38:06 Uhr_
+_last generated: 26.03.2024, 09:07:39 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -14,7 +14,7 @@ _last generated: 25.03.2024, 19:38:06 Uhr_
 | HmIP-BBL | [V1.10.16](changelogs/changelog_HmIP-BBL_update_V1_10_16_230616.md) |
 | HmIP-BBL-2 | [V1.10.16](changelogs/changelog_HmIP-BBL-2_update_V1_10_16_230626.md) |
 | HmIP-BBL-I | [V1.10.16](changelogs/changelog_HmIP-BBL-I_update_V1_10_16_230626.md) |
-| HmIP-BDT | [V1.4.8](changelogs/changelog_HmIP-BDT_update_V1_4_8_170725.md) |
+| HmIP-BDT | [V2.2.4](changelogs/changelog_HmIP-BDT_update_V2_2_4_231110.md) |
 | HmIP-BDT-I | [V2.2.0](changelogs/changelog_HmIP-BDT-I_update_V2_2_0_230703.md) |
 | HmIP-BRC2 | [V1.8.10](changelogs/changelog_HmIP-BRC2_update_V1_8_10_221103.md) |
 | HmIP-BROLL | [V1.10.16](changelogs/changelog_HmIP-BROLL_update_V1_10_16_230508.md) |
@@ -42,7 +42,7 @@ _last generated: 25.03.2024, 19:38:06 Uhr_
 | HmIP-FBL | [V1.10.16](changelogs/changelog_HmIP-FBL_update_V1_10_16_231115.md) |
 | HmIP-FCI1 | [V1.0.14](changelogs/changelog_HmIP-FCI1_update_V1_0_14_181114.md) |
 | HmIP-FCI6 | [V1.0.18](changelogs/changelog_HmIP-FCI6_update_V1_0_18_221010.md) |
-| HmIP-FDT | [V1.4.8](changelogs/changelog_HmIP-FDT_update_V1_4_8_170725.md) |
+| HmIP-FDT | [V2.2.4](changelogs/changelog_HmIP-FDT_update_V2_2_4_231123.md) |
 | HmIP-FROLL | [V1.10.16](changelogs/changelog_HmIP-FROLL_update_V1_10_16_230616.md) |
 | HmIP-FSI16 | [V3.0.6](changelogs/changelog_HmIP-FSI16_update_V3_0_6_220504.md) |
 | HmIP-FSM | [V1.24.6](changelogs/changelog_HmIP-FSM_update_V1_24_6_230323.md) |
@@ -59,8 +59,10 @@ _last generated: 25.03.2024, 19:38:06 Uhr_
 | HmIP-MP3P | [V1.0.28](changelogs/changelog_HmIP-MP3P_update_V1_0_28_221005.md) |
 | HmIP-PCBS | [V2.10.2](changelogs/changelog_HmIP-PCBS_update_V2_10_2_171009.md) |
 | HmIP-PCBS2 | [V1.10.10](changelogs/changelog_HmIP-PCBS2_update_V1_10_10_180601.md) |
-| HmIP-PDT | [V1.4.8](changelogs/changelog_HmIP-PDT_update_V1_4_8_170725.md) |
-| HmIP-PDT-UK | [V1.4.8](changelogs/changelog_HmIP-PDT-UK_update_V1_4_8_170804.md) |
+| HmIP-PDT | [V2.2.4](changelogs/changelog_HmIP-PDT_update_V2_2_4_231123.md) |
+| HmIP-PDT-CH | [V2.2.4](changelogs/changelog_HmIP-PDT-CH_update_V2_2_4_231123.md) |
+| HmIP-PDT-PE | [V2.2.4](changelogs/changelog_HmIP-PDT-PE_update_V2_2_4_231123.md) |
+| HmIP-PDT-UK | [V2.2.4](changelogs/changelog_HmIP-PDT-UK_update_V2_2_4_231123.md) |
 | HmIP-PMFS | [V1.0.12](changelogs/changelog_HmIP-PMFS_update_V1_0_12_171116.md) |
 | HmIP-PS | [V2.24.2](changelogs/changelog_HmIP-PS_update_V2_24_2_230210.md) |
 | HmIP-PS-2 | [V2.24.2](changelogs/changelog_HmIP-PS-2_update_V2_24_2_230131.md) |
@@ -139,7 +141,7 @@ _last generated: 25.03.2024, 19:38:06 Uhr_
 | ------------- |:-------------:|
 | HmIPW-BRC2 | [V2.2.14](changelogs/changelog_HmIPW-BRC2_update_V2_2_14_221020.md) |
 | HmIPW-DRAP | [V3.0.20](changelogs/changelog_HmIPW-DRAP_3_0_20_231208.md) |
-| HmIPW-DRBL4 | [V1.8.4](changelogs/changelog_HmIPW-DRBL4_update_V1_8_4_221019.md) |
+| HmIPW-DRBL4 | [V1.10.18](changelogs/changelog_HmIPW-DRBL4_update_V1_10_18_230728.md) |
 | HmIPW-DRD3 | [V2.0.6](changelogs/changelog_HmIPW-DRD3_update_V2_0_6_230412.md) |
 | HmIPW-DRI16 | [V1.2.2](changelogs/changelog_HmIPW-DRI16_update_V1_2_2_190603.md) |
 | HmIPW-DRI32 | [V1.2.2](changelogs/changelog_HmIPW-DRI32_update_V1_2_2_190603.md) |
