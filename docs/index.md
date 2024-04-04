@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 03.04.2024, 20:38:14 Uhr_
+_last generated: 04.04.2024, 12:38:21 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -30,8 +30,8 @@ _last generated: 03.04.2024, 20:38:14 Uhr_
 | HmIP-DRBLI4 | [V1.10.16](changelogs/changelog_HmIP-DRBLI4_update_V1_10_16_230626.md) |
 | HmIP-DRDI3 | [V1.4.8](changelogs/changelog_HmIP-DRDI3_update_V1_4_8_220323.md) |
 | HmIP-DRG-DALI | [V1.4.8](changelogs/changelog_HmIP-DRG-DALI_update_V1_4_8_230508.md) |
-| HmIP-DRSI1 | [V1.6.0](changelogs/changelog_HmIP-DRSI1_update_V1_6_0_200526.md) |
-| HmIP-DRSI4 | [V1.4.2](changelogs/changelog_HmIP-DRSI4_update_V1_4_2_190819.md) |
+| HmIP-DRSI1 | [V1.6.2](changelogs/changelog_HmIP-DRSI1_update_V1_6_2_221207.md) |
+| HmIP-DRSI4 | [V1.4.4](changelogs/changelog_HmIP-DRSI4_update_V1_4_4_221207.md) |
 | HmIP-DSD-PCB | [V1.0.6](changelogs/changelog_HmIP-DSD-PCB_update_V1_0_6_190927.md) |
 | HmIP-ESI | [V1.2.2](changelogs/changelog_HmIP-ESI_update_V1_2_2_231214.md) |
 | HmIP-FAL230-C10 | [V2.4.6](changelogs/changelog_HmIP_FAL230_C10_update_2_4_6_230804.md) |
@@ -90,6 +90,8 @@ _last generated: 03.04.2024, 20:38:14 Uhr_
 | HmIP-SMO-2 | [V3.6.72](changelogs/changelog_HmIP-SMO-2_update_V3_6_72_230504.md) |
 | HmIP-SMO-A | [V3.6.72](changelogs/changelog_HmIP-SMO-A_update_V3_6_72_230504.md) |
 | HmIP-SMO-A-2 | [V3.6.72](changelogs/changelog_HmIP-SMO-A-2_update_V3_6_72_230504.md) |
+| HmIP-SMO230 | [V3.8.104](changelogs/changelog_HmIP-SMO230_update_V3_8_104_240131.md) |
+| HmIP-SMO230-A | [V3.8.104](changelogs/changelog_HmIP-SMO230-A_update_V3_8_104_240131.md) |
 | HmIP-SPDR | [V1.2.12](changelogs/changelog_HmIP-SPDR_update_V1_2_12_230510.md) |
 | HmIP-SPI | [V1.4.0](changelogs/changelog_HmIP-SPI_update_V1_4_0_180314.md) |
 | HmIP-SRD | [V1.0.20](changelogs/changelog_HmIP-SRD_update_V1_0_20_220929.md) |
