@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 03.06.2024, 20:42:54 Uhr_
+_last generated: 04.06.2024, 12:39:32 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -160,6 +160,8 @@ _last generated: 03.06.2024, 20:42:54 Uhr_
 | HmIPW-SPI | [V1.0.30](changelogs/changelog_HmIPW-SPI_update_V1_0_30_190709.md) |
 | HmIPW-STH | [V2.8.10](changelogs/changelog_HmIPW_STH_update_2_8_10_221024.md) |
 | HmIPW-STHD | [V2.8.10](changelogs/changelog_HmIPW_STHD_update_2_8_10_221024.md) |
+| HmIPW-WGD | [V1.0.24](changelogs/changelog_HmIPW-WGD_update_V1_0_24_231120.md) |
+| HmIPW-WGD-PL | [V1.0.24](changelogs/changelog_HmIPW-WGD-PL_update_V1_0_24_231120.md) |
 | HmIPW-WRC2 | [V2.2.14](changelogs/changelog_HmIPW-WRC2_update_V2_2_14_221020.md) |
 | HmIPW-WRC6 | [V1.2.2](changelogs/changelog_HmIPW-WRC6_update_V1_2_2_221019.md) |
 | HmIPW-WTH | [V2.8.10](changelogs/changelog_HmIPW_WTH_update_2_8_10_221019.md) |
