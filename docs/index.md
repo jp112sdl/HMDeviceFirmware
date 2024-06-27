@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 26.06.2024, 20:42:36 Uhr_
+_last generated: 27.06.2024, 12:40:43 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -50,6 +50,7 @@ _last generated: 26.06.2024, 20:42:36 Uhr_
 | HmIP-FWI | [V1.0.14](changelogs/changelog_HmIP-FWI_update_V1_0_14_220428.md) |
 | HmIP-KRC4 | [V1.10.0](changelogs/changelog_HmIP-KRC4_update_V1_10_0_180302.md) |
 | HmIP-KRCA | [V1.10.0](changelogs/changelog_HmIP-KRCA_update_V1_10_0_180302.md) |
+| HmIP-LSC | [V1.0.16](changelogs/changelog_HmIP-LSC_update_V1_0_16_240405.md) |
 | HmIP-MIO16-PCB | [V1.0.10](changelogs/changelog_HmIP-MIO16-PCB_update_V1_0_10_191022.md) |
 | HmIP-MIOB | [V2.2.0](changelogs/changelog_HmIP-MIOB_update_V2_2_0_231109.md) |
 | HmIP-MOD-HO | [V1.0.16](changelogs/changelog_HmIP-MOD-HO_update_V1_0_16_221020.md) |
