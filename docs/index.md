@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 03.09.2024, 20:43:45 Uhr_
+_last generated: 04.09.2024, 12:41:19 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -19,7 +19,7 @@ _last generated: 03.09.2024, 20:43:45 Uhr_
 | HmIP-BRC2 | [V1.8.10](changelogs/changelog_HmIP-BRC2_update_V1_8_10_221103.md) |
 | HmIP-BROLL | [V1.10.16](changelogs/changelog_HmIP-BROLL_update_V1_10_16_230508.md) |
 | HmIP-BROLL-2 | [V1.10.16](changelogs/changelog_HmIP-BROLL-2_update_V1_10_16_230626.md) |
-| HmIP-BS2 | [V1.8.8](changelogs/changelog_HmIP-BS2_update_V1_8_8_220124.md) |
+| HmIP-BS2 | [V1.8.8](changelogs/changelog_HmIP-BS2_update_V1_8_8_220225.md) |
 | HmIP-BSL | [V2.0.2](changelogs/changelog_HmIP-BSL_update_V2_0_2_230929.md) |
 | HmIP-BSM | [V1.18.24](changelogs/changelog_HmIP-BSM_update_V1_18_24_221207.md) |
 | HmIP-BSM-I | [V1.22.8](changelogs/changelog_HmIP-BSM-I_update_V1_22_8_220125.md) |
@@ -137,6 +137,7 @@ _last generated: 03.09.2024, 20:43:45 Uhr_
 | HmIP-eTRV-E | [V1.4.6](changelogs/changelog_HmIP-eTRV-E_update_V1_4_6_231019.md) |
 | HmIP-eTRV-E-A | [V1.4.6](changelogs/changelog_HmIP-eTRV-E-A_update_V1_4_6_231019.md) |
 | HmIP-eTRV-E-S | [V1.4.6](changelogs/changelog_HmIP-eTRV-E-S_update_V1_4_6_231019.md) |
+| HmIP-eTRV-F | [V1.0.32](changelogs/changelog_HmIP-eTRV-F_update_V1_0_32_240610.md) |
 </details>
 <details open><summary>HmIPW</summary>
 

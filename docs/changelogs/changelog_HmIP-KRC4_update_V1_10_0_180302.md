@@ -3,10 +3,9 @@ C H A N G E L O G
 
 Please note: Only use the firmware file in connection with the current software-version of the CCUx!
 
-Device:      HmIP-KRC4 - Homematic IP Key-Ring Remote Control - 4 buttons
+Device:      HmIP-KRC4 - Homematic IP Schlüsselbundfernbedienung
+
 Company:     eQ-3, Maiburger Str. 29, 26789 Leer, Germany
-
-
 
 Version 1.10.0 - 02.03.2018
 --------------------------------------------------------------
@@ -284,5 +283,163 @@ Version 1.0.0 20150320
      0 (disabled)
      
 
+Version 0.14.1 20150309
+--------------------------------------------------------------
+
+** Related Hardware
+   * 1444094F
+   
+** Modification  
+   * Changed behaviour if an link partner sends a NAK (only NAK peer unknown
+     /invalid channel triggers a config request)
+   * If a link partners sends no MAC ACK, this partner is removed from 
+     temp-partner list and it is stored as if that partner sends a NAK peer 
+     unknown. So the device don't have to wait the ARR-Timeout if no MAC-ACK
+     received from partner
+
+** Bugs
+   * If the device is waiting for an answer and then gets config data, the 
+     led signalling of the led signal "sending" is retriggered, if the 
+     configuratin is done
+   * Resolved following issue: 
+     If the SNC is listed as link partner the Error-LED-Signal is 
+     triggered even if the SNC sends an ACK.
+
+Version 0.14.0 20150216
+--------------------------------------------------------------
+
+** Related Hardware
+   * 1444094F
+   
+** Modification  
+   * If the inclusion mode is retriggered, a inclusion request is send immidiately
+   * If the factory reset procedure is terminated by a short key press of the key visual, the error led signal is started.
+   * Production test implemented
+   * Full RX timeout changed to 11 seconds (before 10s ). This caused sometimes a litte gap in the receive window.
+   * Added additional operation mode DEVICE_MODE_PORTABLE_DEVICE
+
+** Bugs
+   * If a channel key is pressed within the factory reset procedure, the device starts to send switch commands. This makes it
+     difficult to recognize the factory reset led signalling as it is overwritten by the tx attempts. Now the channel keys are
+     not longer evaluated if the factory procedure has started.
+     
+     
+Version 0.12.0 20150115
+--------------------------------------------------------------
+
+** Related Hardware
+   * 1444094F
+   
+** Modification  
+   * accept master key and local key for inclusion
+
+Version 0.10.0 20141212
+--------------------------------------------------------------
+
+** Related Hardware
+   * 1444094F
+   
+** Modification    
+   * only Device local key is accepted
+   * status info with bidi bit is send every hour   
+   * Changed calculation of the parameter DUTY_LIMIT. The 
+     parameter is now coded in 0.5% steps (1% steps before) 
+     and 0xff means inactiv.
+   * Changed the behaviour if a partner answers with 
+     "peer unknown". If all partners have answered, whatever
+     ACK or NAK, the LED signal is triggered (green or red).
+     Till now the red LED signal were triggered after the rx 
+     timeout, if at least one peer has send an NAK.  
+   * unidirectional cyclic status info disabled by default 
+     parameter value
+   * Channel keys are only evaluated if the device is included
+     -> no inclusion request on channel key stroke
+   * After a service inclusion no further inclusion requests 
+     should be send (same behaviour as after a normal
+     inclusion).   
+   * changed CSMA/CA status pin to the MISO pin
+   
+** New Feature
+   * Added Parameter to List 1: REPEATED_LONG_KEYPRESS_TIMEOUT, 
+     parameter index is 0x17. 
+     After this timeout a long keypress triggers no further TX.
+     Default Timeout is 2 minutes (0x82).
+   * Low bat and very low bat behaviour implemented (orange led
+     signal after tx, no further function if very low bat, ...)
+   * Error led signal if inclusion has an error
+   * Battery measurement on boot for very low bat detection 
+   * The battery voltage is now an average value done by HMOS
+   * Added support of the status info telegram with answer ACK.
+   * Added signalling of an ongoing configuration 
+   * Added sending of a StatusInfo on Boot.
+** Bugs
+   * modified the code that the first keypress of the key visual
+     is not longer detected after more than 5 seconds (should be
+     4 seconds)
+   * Channelnumber in the request config update frame was wrong 
+     if key visual was pressed
+   * If the status receiver address includes 0x00 at any place
+     no status info is sent
+	  
+  
+
+
+Version 0.3.1 20141017
+--------------------------------------------------------------
+
+** Related Hardware
+   * 1444094F
+   
+** Modification
+   * Inclusion mode is not longer changed if the key visual is pressed and the device is not included
+   * If a factory reset procedure is started and the factory reset is disabled an error signal is generated on the key visual led
+
+	 
+	 
+Version 0.3.0 20141017
+--------------------------------------------------------------
+
+** Related Hardware
+   * 1444094F
+   
+** New Feature
+   * Long keystroke if double click keylock is active. By now the long  
+   * keystroke has be immidiately evaluated, even if the double click keylock 
+   * is active and no short keypress is done before.
+
+	 
 	 
 --- END OF FILE ---
+
+
+
+Version <Versionsnummer> - <Releasedatum im Format YYYYMMDD>
+--------------------------------------------------------------
+
+** Bugfix
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung des allgemeinen Fehlers bzw. Programmabsturzes>
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung des allgemeinen Fehlers bzw. Programmabsturzes>
+
+** New Feature
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung der neuen Funktion>
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung der neuen Funktion>
+
+** Modification
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung der Modifikation>
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung der Modifikation>
+
+** Improvement
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung der Verbesserung>
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung der Verbesserung>
+
+** Bugs
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung des offenen Fehlers>
+   * <JIRA Vorgangsnummer (optional)> - <Beschreibung des offenen Fehlers>
+
+** Related Hardware
+   * <Platinennummer> - <zusätzliche Hinweise, Modifikationen usw.>
+
+** Comments
+   * <Allgemeiner Kommentar>
+   * <Allgemeiner Kommentar>
+

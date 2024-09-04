@@ -11,7 +11,7 @@ Company: eQ-3, Maiburger Str. 29, 26789 Leer, Germany
 
 Version 1.4.4 - 2022-04-06
 --------------------------------------------------------------
-** Bugfix
+** Improvement
    * General improvements - Code optimisation
 
 Version 1.4.2 - 2018-06-27
