@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 04.09.2024, 12:41:19 Uhr_
+_last generated: 04.09.2024, 16:44:27 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -57,7 +57,7 @@ _last generated: 04.09.2024, 12:41:19 Uhr_
 | HmIP-MOD-OC8 | [V1.8.12](changelogs/changelog_HmIP-MOD-OC8_update_V1_8_12_170803.md) |
 | HmIP-MOD-TM | [V1.0.0](changelogs/changelog_HmIP-MOD-TM_update_V1_0_0_180713.md) |
 | HmIP-MOD-WD-VK | [V1.0.6](changelogs/changelog_HmIP-MOD-WD-VK_update_V1_0_6_220727.md) |
-| HmIP-MP3P | [V1.0.28](changelogs/changelog_HmIP-MP3P_update_V1_0_28_221005.md) |
+| HmIP-MP3P | [V1.0.30](changelogs/changelog_HmIP-MP3P_update_V1_0_30_240515.md) |
 | HmIP-PCBS | [V2.10.2](changelogs/changelog_HmIP-PCBS_update_V2_10_2_171009.md) |
 | HmIP-PCBS2 | [V1.10.10](changelogs/changelog_HmIP-PCBS2_update_V1_10_10_180601.md) |
 | HmIP-PDT | [V2.2.4](changelogs/changelog_HmIP-PDT_update_V2_2_4_231123.md) |
@@ -116,7 +116,7 @@ _last generated: 04.09.2024, 12:41:19 Uhr_
 | HmIP-SWO-PR | [V1.2.6](changelogs/changelog_HmIP-SWO-PR_update_V1_2_6_230209.md) |
 | HmIP-USBSM | [V1.0.16](changelogs/changelog_HmIP-USBSM_update_V1_0_16_210316.md) |
 | HmIP-WGC | [V1.0.4](changelogs/changelog_HmIP-WGC_update_V1_0_4_221206.md) |
-| HmIP-WHS2 | [V2.0.10](changelogs/changelog_HmIP-WHS2_update_V2_0_10_220525.md) |
+| HmIP-WHS2 | [V2.2.0](changelogs/changelog_HmIP-WHS2_update_V2_2_0_240125.md) |
 | HmIP-WKP | [V1.0.12](changelogs/changelog_HmIP-WKP_update_V1_0_12_230327.md) |
 | HmIP-WRC2 | [V1.18.2](changelogs/changelog_HmIP-WRC2_update_V1_18_2_230207.md) |
 | HmIP-WRC6 | [V2.2.14](changelogs/changelog_HMIP-WRC6_update_V2_2_14_220324.md) |
