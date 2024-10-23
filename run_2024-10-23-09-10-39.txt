@@ -1,4 +1,4 @@
-External IP: 74.249.5.97
+External IP: 52.157.3.106
 Getting firmware list
 Downloading firmware file 1 of 185 (ELV-SH-BM-S).              
 Downloading firmware file 2 of 185 (ELV-SH-WSC).              
@@ -187,6 +187,5 @@ Downloading firmware file 184 of 185 (HmIPW-WRC6).
 Downloading firmware file 185 of 185 (HmIPW-WTH).              
 
 Moving files into directories
-HmIP_eTRV_2_UK_update_2_2_8_190225.tgz has no changelog.txt
 hm-lc-rgbw-wm_update_V1_0_150723.tgz has no changelog.txt
 Done.

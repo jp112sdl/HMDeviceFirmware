@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 22.10.2024, 20:45:59 Uhr_
+_last generated: 23.10.2024, 09:16:02 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -38,7 +38,7 @@ _last generated: 22.10.2024, 20:45:59 Uhr_
 | HmIP-FAL230-C6 | [V2.4.6](changelogs/changelog_HmIP_FAL230_C6_update_2_4_6_230804.md) |
 | HmIP-FAL24-C10 | [V2.4.6](changelogs/changelog_HmIP_FAL24_C10_update_2_4_6_230804.md) |
 | HmIP-FAL24-C6 | [V2.4.6](changelogs/changelog_HmIP_FAL24_C6_update_2_4_6_230804.md) |
-| HmIP-FALMOT-C12 | [V1.4.10](changelogs/changelog_HmIP_FALMOT_C12_update_V1_4_10_230929.md) |
+| HmIP-FALMOT-C12 | [V1.6.2](changelogs/changelog_HmIP_FALMOT_C12_update_V1_6_2_240611.md) |
 | HmIP-FBL | [V1.10.16](changelogs/changelog_HmIP-FBL_update_V1_10_16_231115.md) |
 | HmIP-FCI1 | [V1.0.14](changelogs/changelog_HmIP-FCI1_update_V1_0_14_181114.md) |
 | HmIP-FCI6 | [V1.0.18](changelogs/changelog_HmIP-FCI6_update_V1_0_18_221010.md) |
@@ -84,7 +84,7 @@ _last generated: 22.10.2024, 20:45:59 Uhr_
 | HmIP-SCI | [V1.0.8](changelogs/changelog_HmIP-SCI_update_V1_0_8_221025.md) |
 | HmIP-SCTH230 | [V1.0.10](changelogs/changelog_HmIP-SCTH230_update_V1_0_10_220601.md) |
 | HmIP-SFD | [V1.2.24](changelogs/changelog_HmIP-SFD_update_V1_2_24_230421.md) |
-| HmIP-SLO | [V1.0.16](changelogs/changelog_HmIP-SLO_update_V1_0_16_180126.md) |
+| HmIP-SLO | [V1.0.18](changelogs/changelog_HmIP-SLO_update_V1_0_18_220216.md) |
 | HmIP-SMI | [V3.2.48](changelogs/changelog_HmIP-SMI_update_V3_2_48_220718.md) |
 | HmIP-SMI55 | [V1.2.4](changelogs/changelog_HmIP-SMI55_update_V1_2_4_220711.md) |
 | HmIP-SMO | [V3.6.72](changelogs/changelog_HmIP-SMO_update_V3_6_72_230504.md) |
@@ -98,8 +98,8 @@ _last generated: 22.10.2024, 20:45:59 Uhr_
 | HmIP-SRD | [V1.0.20](changelogs/changelog_HmIP-SRD_update_V1_0_20_220929.md) |
 | HmIP-SRH | [V1.2.12](changelogs/changelog_HmIP-SRH_update_V1_2_12_221017.md) |
 | HmIP-STE2-PCB | [V1.0.28](changelogs/changelog_HmIP-STE2-PCB_update_V1_0_28_220930.md) |
-| HmIP-STH | [V2.8.10](changelogs/changelog_HmIP_STH_update_2_8_10_221026.md) |
-| HmIP-STHD | [V2.8.10](changelogs/changelog_HmIP_STHD_update_2_8_10_221026.md) |
+| HmIP-STH | [V3.0.2](changelogs/changelog_HmIP_STH_update_3_0_2_240416.md) |
+| HmIP-STHD | [V3.0.2](changelogs/changelog_HmIP_STHD_update_3_0_2_240430.md) |
 | HmIP-STHO | [V1.0.8](changelogs/changelog_HmIP-STHO_update_V1_0_8_230209.md) |
 | HmIP-STHO-A | [V1.0.8](changelogs/changelog_HmIP-STHO-A_update_V1_0_8_230209.md) |
 | HmIP-STI | [V1.0.0](changelogs/changelog_HmIP-STI_update_V1_0_0_210915.md) |
@@ -124,12 +124,13 @@ _last generated: 22.10.2024, 20:45:59 Uhr_
 | HmIP-WRCD | [V1.4.8](changelogs/changelog_HmIP-WRCD_update_V1_4_8_230419.md) |
 | HmIP-WTH | [V2.8.10](changelogs/changelog_HmIP_WTH_update_2_8_10_221026.md) |
 | HmIP-WTH-1 | [V1.0.14](changelogs/changelog_HmIP-WTH-1_update_V1_0_14_221021.md) |
-| HmIP-WTH-2 | [V2.8.10](changelogs/changelog_HmIP_WTH_2_update_2_8_10_221026.md) |
-| HmIP-WTH-B-2 | [V1.2.020](changelogs/changelog_HmIP_WTH_B_2_update_1_2_20_230731.md) |
+| HmIP-WTH-2 | [V3.0.2](changelogs/changelog_HmIP_WTH_2_update_3_0_2_240416.md) |
+| HmIP-WTH-B-2 | [V1.4.2](changelogs/changelog_HmIP-WTH-B-2_update_V1_4_2_240418.md) |
 | HmIP-WUA | [V1.0.16](changelogs/changelog_HmIP-WUA_update_V1_0_16_221028.md) |
-| HmIP-eTRV | [V2.2.010](changelogs/changelog_HmIP_eTRV_update_2_2_10_220706.md) |
-| HmIP-eTRV-2 | [V2.2.008](changelogs/changelog_HmIP_eTRV_2_update_2_2_8_190225.md) |
-| HmIP-eTRV-2_I9F | [V2.2.20](changelogs/changelog_HmIP-eTRV-2_I9F_update_V2_2_20_240214.md) |
+| HmIP-eTRV | [V2.2.12](changelogs/changelog_HmIP_eTRV_update_2_2_12_240610.md) |
+| HmIP-eTRV-2 | [V2.2.012](changelogs/changelog_HmIP_eTRV_2_update_2_2_12_240503.md) |
+| HmIP-eTRV-2-UK | [V2.2.12](changelogs/changelog_HmIP_eTRV_2_UK_update_2_2_12_240503.md) |
+| HmIP-eTRV-2_I9F | [V2.2.22](changelogs/changelog_HmIP-eTRV-2_I9F_update_V2_2_22_240503.md) |
 | HmIP-eTRV-B-2 | [V1.2.012](changelogs/changelog_HmIP_eTRV_B_2_update_1_2_12_220317.md) |
 | HmIP-eTRV-C | [V1.4.014](changelogs/changelog_HmIP_eTRV_C_update_1_4_14_220128.md) |
 | HmIP-eTRV-C-2 | [V1.4.14](changelogs/changelog_HmIP-eTRV-C-2_update_V1_4_14_220128.md) |
@@ -155,7 +156,7 @@ _last generated: 22.10.2024, 20:45:59 Uhr_
 | HmIPW-FAL230-C6 | [V2.4.6](changelogs/changelog_HmIPW_FAL230_C6_update_2_4_6_230815.md) |
 | HmIPW-FAL24-C10 | [V2.4.6](changelogs/changelog_HmIPW_FAL24_C10_update_2_4_6_230815.md) |
 | HmIPW-FAL24-C6 | [V2.4.6](changelogs/changelog_HmIPW_FAL24_C6_update_2_4_6_230815.md) |
-| HmIPW-FALMOT-C12 | [V1.4.10](changelogs/changelog_HmIPW-FALMOT-C12_update_V1_4_10_231010.md) |
+| HmIPW-FALMOT-C12 | [V1.6.2](changelogs/changelog_HmIPW-FALMOT-C12_update_V1_6_2_240611.md) |
 | HmIPW-FIO6 | [V1.2.10](changelogs/changelog_HmIPW-FIO6_update_V1_2_10_230822.md) |
 | HmIPW-SCTHD | [V1.0.10](changelogs/changelog_HmIPW-SCTHD_update_V1_0_10_230411.md) |
 | HmIPW-SMI55 | [V1.0.20](changelogs/changelog_HmIPW-SMI55_update_V1_0_20_190613.md) |
@@ -166,7 +167,7 @@ _last generated: 22.10.2024, 20:45:59 Uhr_
 | HmIPW-WGD-PL | [V1.0.24](changelogs/changelog_HmIPW-WGD-PL_update_V1_0_24_231120.md) |
 | HmIPW-WRC2 | [V2.2.14](changelogs/changelog_HmIPW-WRC2_update_V2_2_14_221020.md) |
 | HmIPW-WRC6 | [V1.2.2](changelogs/changelog_HmIPW-WRC6_update_V1_2_2_221019.md) |
-| HmIPW-WTH | [V2.8.10](changelogs/changelog_HmIPW_WTH_update_2_8_10_221019.md) |
+| HmIPW-WTH | [V3.0.2](changelogs/changelog_HmIPW_WTH_update_3_0_2_240408.md) |
 </details>
 <details open><summary>ELV</summary>
 
