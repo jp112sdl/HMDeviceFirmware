@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 06.02.2025, 19:45:56 Uhr_
+_last generated: 07.02.2025, 11:43:39 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -111,6 +111,7 @@ _last generated: 06.02.2025, 19:45:56 Uhr_
 | HmIP-SWDM-2 | [V1.4.2](changelogs/changelog_HmIP-SWDM-2_update_V1_4_2_220210.md) |
 | HmIP-SWDO | [V1.18.10](changelogs/changelog_HmIP-SWDO_update_V1_18_10_221021.md) |
 | HmIP-SWDO-2 | [V1.18.6](changelogs/changelog_HmIP-SWDO-2_update_V1_18_6_220912.md) |
+| HmIP-SWDO-A | [V1.18.6](changelogs/changelog_HmIP-SWDO-A_update_V1_18_6_230522.md) |
 | HmIP-SWDO-I | [V1.18.10](changelogs/changelog_HmIP-SWDO-I_update_V1_18_10_230106.md) |
 | HmIP-SWDO-PL | [V1.18.10](changelogs/changelog_HmIP-SWDO-PL_update_V1_18_10_221019.md) |
 | HmIP-SWDO-PL-2 | [V1.18.10](changelogs/changelog_HmIP-SWDO-PL-2_update_V1_18_10_221019.md) |
