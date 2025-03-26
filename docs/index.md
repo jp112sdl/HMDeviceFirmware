@@ -1,13 +1,13 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 25.03.2025, 19:50:38 Uhr_
+_last generated: 26.03.2025, 11:44:55 Uhr_
 
 <details open><summary>HmIP</summary>
 
 | Device Model | Version |
 | ------------- |:-------------:|
-| HMIP-HAP | [V3.0.36](changelogs/changelog_HMIP-HAP_3_0_36_241218.md) |
-| HMIP-HAP-JS1 | [V3.0.36](changelogs/changelog_HMIP-HAP-JS1_3_0_36_241218.md) |
+| HMIP-HAP | [V3.0.18](changelogs/changelog_HMIP-HAP_3_0_18_230929.md) |
+| HMIP-HAP-JS1 | [V3.0.18](changelogs/changelog_HMIP-HAP-JS1_3_0_18_230929.md) |
 | HmIP-ASIR | [V1.4.2](changelogs/changelog_HmIP-ASIR_update_V1_4_2_180724.md) |
 | HmIP-ASIR-2 | [V1.4.4](changelogs/changelog_HmIP-ASIR-2_update_V1_4_4_220406.md) |
 | HmIP-ASIR-O | [V1.0.8](changelogs/changelog_HmIP-ASIR-O_update_V1_0_8_221018.md) |
@@ -152,7 +152,7 @@ _last generated: 25.03.2025, 19:50:38 Uhr_
 | Device Model | Version |
 | ------------- |:-------------:|
 | HmIPW-BRC2 | [V2.2.14](changelogs/changelog_HmIPW-BRC2_update_V2_2_14_221020.md) |
-| HmIPW-DRAP | [V3.0.36](changelogs/changelog_HmIPW-DRAP_3_0_36_241218.md) |
+| HmIPW-DRAP | [V3.0.20](changelogs/changelog_HmIPW-DRAP_3_0_20_231208.md) |
 | HmIPW-DRBL4 | [V1.10.18](changelogs/changelog_HmIPW-DRBL4_update_V1_10_18_230728.md) |
 | HmIPW-DRD3 | [V2.0.6](changelogs/changelog_HmIPW-DRD3_update_V2_0_6_230412.md) |
 | HmIPW-DRI16 | [V1.2.2](changelogs/changelog_HmIPW-DRI16_update_V1_2_2_190603.md) |
