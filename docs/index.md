@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 08.04.2025, 20:49:32 Uhr_
+_last generated: 09.04.2025, 12:50:01 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -108,6 +108,7 @@ _last generated: 08.04.2025, 20:49:32 Uhr_
 | HmIP-STI | [V1.0.0](changelogs/changelog_HmIP-STI_update_V1_0_0_210915.md) |
 | HmIP-STV | [V1.2.8](changelogs/changelog_HmIP-STV_update_V1_2_8_240913.md) |
 | HmIP-SWD | [V1.0.4](changelogs/changelog_HmIP-SWD_update_V1_0_004_221018.md) |
+| HmIP-SWD-2 | [V2.0.14](changelogs/changelog_HmIP-SWD-2_update_V2_0_14_250306.md) |
 | HmIP-SWDM-2 | [V1.4.2](changelogs/changelog_HmIP-SWDM-2_update_V1_4_2_220210.md) |
 | HmIP-SWDO | [V1.18.10](changelogs/changelog_HmIP-SWDO_update_V1_18_10_221021.md) |
 | HmIP-SWDO-2 | [V1.18.6](changelogs/changelog_HmIP-SWDO-2_update_V1_18_6_220912.md) |
@@ -165,6 +166,7 @@ _last generated: 08.04.2025, 20:49:32 Uhr_
 | HmIPW-FAL24-C6 | [V2.4.6](changelogs/changelog_HmIPW_FAL24_C6_update_2_4_6_230815.md) |
 | HmIPW-FALMOT-C12 | [V1.6.2](changelogs/changelog_HmIPW-FALMOT-C12_update_V1_6_2_240611.md) |
 | HmIPW-FIO6 | [V1.2.10](changelogs/changelog_HmIPW-FIO6_update_V1_2_10_230822.md) |
+| HmIPW-SCTHD | [V1.0.12](changelogs/changelog_HmIPW-SCTHD_update_V1_0_12_231130.md) |
 | HmIPW-SMI55 | [V1.0.20](changelogs/changelog_HmIPW-SMI55_update_V1_0_20_190613.md) |
 | HmIPW-SPI | [V1.0.30](changelogs/changelog_HmIPW-SPI_update_V1_0_30_190709.md) |
 | HmIPW-STH | [V2.8.10](changelogs/changelog_HmIPW_STH_update_2_8_10_221024.md) |
