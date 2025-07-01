@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 01.07.2025, 12:48:49 Uhr_
+_last generated: 01.07.2025, 16:49:28 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -77,6 +77,7 @@ _last generated: 01.07.2025, 12:48:49 Uhr_
 | HmIP-PS-2_9YM | [V2.24.2](changelogs/changelog_HmIP-PS-2_9YM_update_V2_24_2_230216.md) |
 | HmIP-PSM | [V2.22.8](changelogs/changelog_HmIP-PSM_update_V2_22_8_220125.md) |
 | HmIP-PSM-2 | [V2.22.8](changelogs/changelog_HmIP-PSM-2_update_V2_22_8_220127.md) |
+| HmIP-PSM-2-A | [V2.24.2](changelogs/changelog_HmIP-PSM-2-A_update_V2_24_2_250228.md) |
 | HmIP-PSM-2_QHJ | [V2.24.2](changelogs/changelog_HmIP-PSM-2_QHJ_update_V2_24_2_230216.md) |
 | HmIP-PSM-CH | [V2.22.8](changelogs/changelog_HmIP-PSM-CH_update_V2_22_8_220125.md) |
 | HmIP-PSM-CH-2 | [V2.24.2](changelogs/changelog_HmIP-PSM-CH-2_update_V2_24_2_230220.md) |
