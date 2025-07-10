@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 10.07.2025, 12:50:00 Uhr_
+_last generated: 10.07.2025, 16:53:25 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -24,8 +24,9 @@ _last generated: 10.07.2025, 12:50:00 Uhr_
 | HmIP-BSL | [V2.0.2](changelogs/changelog_HmIP-BSL_update_V2_0_2_230929.md) |
 | HmIP-BSM | [V1.18.24](changelogs/changelog_HmIP-BSM_update_V1_18_24_221207.md) |
 | HmIP-BSM-I | [V1.22.8](changelogs/changelog_HmIP-BSM-I_update_V1_22_8_220125.md) |
-| HmIP-BWTH | [V2.8.10](changelogs/changelog_HmIP_BWTH_update_2_8_10_221101.md) |
-| HmIP-BWTH24 | [V2.8.10](changelogs/changelog_HmIP_BWTH24_update_2_8_10_221101.md) |
+| HmIP-BWTH | [V3.0.4](changelogs/changelog_HmIP_BWTH_update_3_0_4_241202.md) |
+| HmIP-BWTH-A | [V3.0.4](changelogs/changelog_HmIP_BWTH_A_update_3_0_4_241202.md) |
+| HmIP-BWTH24 | [V3.0.4](changelogs/changelog_HmIP_BWTH24_update_3_0_4_241202.md) |
 | HmIP-DLD | [V1.4.12](changelogs/changelog_HmIP-DLD_update_V1_4_12_221017.md) |
 | HmIP-DLS | [V1.4.0](changelogs/changelog_HmIP-DLS_update_V1_4_0_220801.md) |
 | HmIP-DRBLI4 | [V1.10.16](changelogs/changelog_HmIP-DRBLI4_update_V1_10_16_230626.md) |
@@ -167,8 +168,8 @@ _last generated: 10.07.2025, 12:50:00 Uhr_
 | HmIPW-DRAP | [V3.0.20](changelogs/changelog_HmIPW-DRAP_3_0_20_231208.md) |
 | HmIPW-DRBL4 | [V1.10.18](changelogs/changelog_HmIPW-DRBL4_update_V1_10_18_230728.md) |
 | HmIPW-DRD3 | [V2.0.6](changelogs/changelog_HmIPW-DRD3_update_V2_0_6_230412.md) |
-| HmIPW-DRI16 | [V1.2.2](changelogs/changelog_HmIPW-DRI16_update_V1_2_2_190603.md) |
-| HmIPW-DRI32 | [V1.2.2](changelogs/changelog_HmIPW-DRI32_update_V1_2_2_190603.md) |
+| HmIPW-DRI16 | [V1.4.6](changelogs/changelog_HmIPW-DRI16_update_V1_4_6_250526.md) |
+| HmIPW-DRI32 | [V1.4.6](changelogs/changelog_HmIPW-DRI32_update_V1_4_6_250526.md) |
 | HmIPW-DRS4 | [V1.2.6](changelogs/changelog_HmIPW-DRS4_update_V1_2_6_220928.md) |
 | HmIPW-DRS8 | [V1.2.6](changelogs/changelog_HmIPW-DRS8_update_V1_2_6_220928.md) |
 | HmIPW-FAL230-C10 | [V2.4.6](changelogs/changelog_HmIPW_FAL230_C10_update_2_4_6_230815.md) |
