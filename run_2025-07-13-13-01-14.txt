@@ -1,4 +1,4 @@
-External IP: 13.89.27.4
+External IP: 104.46.205.238
 Getting firmware list
 Downloading firmware file 1 of 211 (ELV-SH-BM-S).              
 Downloading firmware file 2 of 211 (ELV-SH-CTH).              
