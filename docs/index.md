@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 13.08.2025, 12:48:43 Uhr_
+_last generated: 13.08.2025, 16:51:45 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -134,6 +134,12 @@ _last generated: 13.08.2025, 12:48:43 Uhr_
 | HmIP-SWO-PR | [V1.2.8](changelogs/changelog_HmIP-SWO-PR_update_V1_2_8_240417.md) |
 | HmIP-USBSM | [V1.0.16](changelogs/changelog_HmIP-USBSM_update_V1_0_16_210316.md) |
 | HmIP-WGC | [V1.0.4](changelogs/changelog_HmIP-WGC_update_V1_0_4_221206.md) |
+| HmIP-WGS | [V1.0.22](changelogs/changelog_HmIP-WGS-F_update_V1_0_22_250417.md) |
+| HmIP-WGS-A | [V1.0.22](changelogs/changelog_HmIP-WGS-A-F_update_V1_0_22_250417.md) |
+| HmIP-WGT | [V1.0.14](changelogs/changelog_HmIP-WGT-F_update_V1_0_14_250710.md) |
+| HmIP-WGT-A | [V1.0.14](changelogs/changelog_HmIP-WGT-A-F_update_V1_0_14_250710.md) |
+| HmIP-WGTC | [V1.0.14](changelogs/changelog_HmIP-WGTC-F_update_V1_0_14_250710.md) |
+| HmIP-WGTC-A | [V1.0.14](changelogs/changelog_HmIP-WGTC-A-F_update_V1_0_14_250710.md) |
 | HmIP-WHS2 | [V2.2.0](changelogs/changelog_HmIP-WHS2_update_V2_2_0_240125.md) |
 | HmIP-WKP | [V1.0.12](changelogs/changelog_HmIP-WKP_update_V1_0_12_230327.md) |
 | HmIP-WRC2 | [V1.18.2](changelogs/changelog_HmIP-WRC2_update_V1_18_2_230207.md) |
