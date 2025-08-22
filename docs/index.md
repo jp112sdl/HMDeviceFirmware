@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 21.08.2025, 20:52:29 Uhr_
+_last generated: 22.08.2025, 12:46:24 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -143,6 +143,8 @@ _last generated: 21.08.2025, 20:52:29 Uhr_
 | HmIP-WHS2 | [V2.2.0](changelogs/changelog_HmIP-WHS2_update_V2_2_0_240125.md) |
 | HmIP-WKP | [V1.0.12](changelogs/changelog_HmIP-WKP_update_V1_0_12_230327.md) |
 | HmIP-WRC2 | [V1.18.2](changelogs/changelog_HmIP-WRC2_update_V1_18_2_230207.md) |
+| HmIP-WRC2-2 | [V2.8.8](changelogs/changelog_HmIP-WRC2-2_update_V2_8_8_250526.md) |
+| HmIP-WRC2-A-2 | [V2.8.8](changelogs/changelog_HmIP-WRC2-A-2_update_V2_8_8_250526.md) |
 | HmIP-WRC6 | [V2.2.14](changelogs/changelog_HMIP-WRC6_update_V2_2_14_220324.md) |
 | HmIP-WRCC2 | [V2.2.14](changelogs/changelog_HmIP-WRCC2_update_V2_2_14_220406.md) |
 | HmIP-WRCD | [V1.4.8](changelogs/changelog_HmIP-WRCD_update_V1_4_8_230419.md) |
@@ -206,6 +208,7 @@ _last generated: 21.08.2025, 20:52:29 Uhr_
 | ------------- |:-------------:|
 | ELV-SH-BM-S | [V1.0.0](changelogs/changelog_ELV-SH-BM-S_update_V1_0_0_231011.md) |
 | ELV-SH-CTH | [V1.0.10](changelogs/changelog_ELV-SH-CTH_update_V1_0_10_240807.md) |
+| ELV-SH-SMSI | [V1.0.12](changelogs/changelog_ELV-SH-SMSI_update_V1_0_12_250613.md) |
 | ELV-SH-TACO | [V1.2.4](changelogs/changelog_ELV-SH-TACO_update_V1_2_4_250328.md) |
 | ELV-SH-WSC | [V1.0.8](changelogs/changelog_ELV-SH-WSC_update_V1_0_8_211001.md) |
 | ELV-SH-WSM | [V1.2.2](changelogs/changelog_ELV-SH-WSM_update_V1_2_2_250617.md) |
