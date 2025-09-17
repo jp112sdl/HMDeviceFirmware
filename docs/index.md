@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 17.09.2025, 12:43:52 Uhr_
+_last generated: 17.09.2025, 16:46:18 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -50,8 +50,8 @@ _last generated: 17.09.2025, 12:43:52 Uhr_
 | HmIP-FSM | [V1.24.6](changelogs/changelog_HmIP-FSM_update_V1_24_6_230323.md) |
 | HmIP-FSM16 | [V1.24.6](changelogs/changelog_HmIP-FSM16_update_V1_24_6_230323.md) |
 | HmIP-FWI | [V1.0.14](changelogs/changelog_HmIP-FWI_update_V1_0_14_220428.md) |
-| HmIP-HAP2 | [V1.0.40](changelogs/changelog_HmIP-HAP2_1_0_40_250821.md) |
-| HmIP-HAP2-A | [V1.0.40](changelogs/changelog_HmIP-HAP2-A_1_0_40_250821.md) |
+| HmIP-HAP2 | [V1.0.42](changelogs/changelog_HmIP-HAP2_1_0_42_250911.md) |
+| HmIP-HAP2-A | [V1.0.42](changelogs/changelog_HmIP-HAP2-A_1_0_42_250911.md) |
 | HmIP-KRC4 | [V2.6.2](changelogs/changelog_HmIP-KRC4_update_V2_6_2_240925.md) |
 | HmIP-KRC4-2 | [V2.6.2](changelogs/changelog_HmIP-KRC4-2_update_V2_6_2_240925.md) |
 | HmIP-KRCA | [V2.6.2](changelogs/changelog_HmIP-KRCA_update_V2_6_2_240925.md) |
