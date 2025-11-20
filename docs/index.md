@@ -1,6 +1,6 @@
 ## Homematic Device Firmware Changelogs
 
-_last generated: 19.11.2025, 19:52:13 Uhr_
+_last generated: 20.11.2025, 11:48:30 Uhr_
 
 <details open><summary>HmIP</summary>
 
@@ -160,7 +160,7 @@ _last generated: 19.11.2025, 19:52:13 Uhr_
 | HmIP-eTRV-2-UK | [V2.2.12](changelogs/changelog_HmIP_eTRV_2_UK_update_2_2_12_240503.md) |
 | HmIP-eTRV-2_I9F | [V2.2.22](changelogs/changelog_HmIP-eTRV-2_I9F_update_V2_2_22_240503.md) |
 | HmIP-eTRV-3 | [V1.0.4](changelogs/changelog_HmIP-eTRV-3_update_V1_0_4_240815.md) |
-| HmIP-eTRV-B-2 | [V1.2.14](changelogs/changelog_HmIP_eTRV_B_2_update_1_2_14_241014.md) |
+| HmIP-eTRV-B-2 | [V1.4.2](changelogs/changelog_HmIP_eTRV_B_2_update_1_4_2_250923.md) |
 | HmIP-eTRV-B-2_R4M | [V1.2.28](changelogs/changelog_HmIP-eTRV-B-2_R4M_update_V1_2_28_241014.md) |
 | HmIP-eTRV-C | [V1.4.014](changelogs/changelog_HmIP_eTRV_C_update_1_4_14_220128.md) |
 | HmIP-eTRV-C-2 | [V1.4.14](changelogs/changelog_HmIP-eTRV-C-2_update_V1_4_14_220128.md) |
