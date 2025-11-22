@@ -1,4 +1,4 @@
 # HMDeviceFirmware
 homematic device firmware archive
 
-To see all changelogs: https://jp112sdl.github.io/HMDeviceFirmware/
+To see all changelogs: https://openccu.github.io/HMDeviceFirmware/
